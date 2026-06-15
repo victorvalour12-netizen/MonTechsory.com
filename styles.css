@@ -1,0 +1,228 @@
+html {
+    font-size: 16px;
+}
+
+p {
+    font-size: 1.25rem;
+    color: rgb(75, 74, 74);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(3, 95, 182);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+body {
+    margin: auto;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    font-family: 'Playwrite GB S Guides', cursive;
+}
+
+.banner {
+    height: 300px;
+    width: 100%;
+    background-color: lightblue;
+    object-fit: cover;
+}
+
+#logo {
+    height: 35px
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: rgba(0, 255, 255, 0.158);
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#descrip {
+    width: 50%;
+    padding-right: 8px;
+}
+
+#team {
+    width: 50%;
+}
+
+#team-image {
+    border-radius: 5px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(3, 95, 182);
+}
+
+#job {
+    font-size: small;
+    max-width: 675px;
+    margin: 0 auto;
+    background-color: rgba(0, 255, 255, 0.158);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* padding: px; */
+}
+
+#jobstable {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+#jobhr th {
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 20px;
+    padding-top: 0;
+    border: 1px solid gray;
+}
+
+
+#jobbody {
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    border: 0;
+}
+
+#jobbody :hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+/* #jobbody tr:nth-child(even) {
+    background-color: rgb(219, 100, 100);
+} */
+#jobbody tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+td {
+    padding: 8px;
+    padding-right: 25px;
+    /* border: 1px solid gray; */
+
+}
+
+tbody tr :nth-child(2) {
+    td {
+        column-span: 2;
+    }
+}
+
+nav {
+    margin: auto;
+}
+
+#footer {
+    background-color: rgb(0, 0, 0);
+    margin-top: 50px;
+    /* border-top: 1px solid ; */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
+    width: 100%;
+    text-align: center;
+
+}
+
+#footer-links {
+    list-style: none;
+    padding-top: 20px;
+
+
+}
+
+#footer-links li {
+    display: inline;
+    padding: 10px;
+
+}
+
+#copyright {
+    color: gray;
+    font-size: 0.75rem;
+}
+
+a {
+    color: rgb(86, 86, 196);
+}
+
+a:hover {
+    color: rgb(0, 0, 177);
+}
+
+#form {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 650px;
+}
+
+#name,
+#email,
+#message,
+#phone,
+#birthday,
+#position,
+#resume {
+    margin: 8px 8px 8px 0;
+    /* align-items: center; */
+    /* width: 250px; */
+}
+
+#submit {
+    background-color: #0004ff;
+    color: white;
+    margin: 8px 8px 8px 0;
+    padding: 2px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    scale: 110%;
+    font-weight: 700;
+}
+
+#position {
+    margin: 8px 8px 8px 0;
+    /* align-items: center; */
+    /* width: 200px; */
+}
+
+#resume {
+    margin: 8px 8px 8px 0;
+    /* align-items: center; */
+    width: 300px;
+}
+
+#application-form [type="checkbox"] {
+    height: 15px;
+    width: 15px;
+    margin: 8px 8px 8px 0;
+}
