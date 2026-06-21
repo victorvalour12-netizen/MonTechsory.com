@@ -1,4 +1,399 @@
 html {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    color: #444444;
+    font-family: 'Playwrite GB S Guides', cursive;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #3882f6;
+}
+
+a:focus {
+    color: #1d4ed8;
+}
+
+nav {
+    padding: 8px;
+    margin: 0;
+}
+
+#logo-1 {
+    display: block;
+}
+
+#logo {
+    display: none;
+}
+
+.banner {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+h1 {
+    margin: 12px 0;
+}
+
+#about {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+
+}
+
+#team-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* #team {
+    width: 50%;
+} */
+
+#job {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    margin: 9px auto;
+}
+
+#jobs-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.job {
+    margin: 10px auto;
+    background-color: #3882f6;
+    color: #f0f0f0;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.job-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.25rem;
+    margin: 5px 0;
+}
+
+#form {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 450px;
+}
+
+#name,
+#email,
+#message,
+#phone,
+#birthday,
+#position,
+#resume {
+    /* margin: 8px 8px 8px 0; */
+    width: 100%;
+}
+
+#submit {
+    background-color: #0004ff;
+    color: white;
+    /* margin: 8px 8px 8px 0; */
+    padding: 2px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    scale: 110%;
+    font-weight: 700;
+}
+
+/* #position {
+    margin: 8px 8px 8px 0;
+} */
+
+#resume {
+    /* margin: 8px 8px 8px 0; */
+    width: 300px;
+}
+
+#application-form [type="checkbox"] {
+    height: 15px;
+    width: 15px;
+    /* margin: 8px 8px 8px 0; */
+}
+
+@media screen and (min-width: 576px) {
+    html {
+        font-size: 16px;
+    }
+
+    #logo-1 {
+        display: none;
+    }
+
+    #logo {
+        display: block;
+    }
+
+    .banner {
+        height: 200px;
+    }
+
+    h1 {
+        margin: 16px 0;
+    }
+
+    #about {
+        margin: 0 auto;
+    }
+
+    .job {
+        width: 500px;
+        font-size: 16px;
+    }
+
+    .job-title {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    /* #form {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 650px;
+} */
+
+#name,
+#email,
+#message,
+#phone,
+#birthday,
+#position,
+#resume {
+    /* margin: 8px 8px 8px 0; */
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+#submit {
+    background-color: #0004ff;
+    color: white;
+    /* margin: 8px 8px 8px 0; */
+    padding: 2px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    scale: 110%;
+    font-weight: 700;
+}
+
+/* #position {
+    margin: 8px 8px 8px 0;
+} */
+
+#message {
+    width: 500px;
+}
+#resume {
+    /* margin: 8px 8px 8px 0; */
+    width: 300px;
+}
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        margin: 20px 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+    }
+
+    #about {
+        display: flex;
+        /* width: 100%; */
+        flex-direction: row;
+        max-width: 800px;
+        padding: 20px;
+    }
+
+    #descrip {
+        flex: 1;
+        padding-right: 15px;
+        font-size: 1.25rem;
+    }
+
+    #team {
+        flex: 1;
+    }
+
+    #team-image {
+        width: 100%;
+    }
+
+    #job {
+        display: block;
+    }
+
+    #jobs-list {
+        display: none;
+    }
+
+    #job {
+        font-size: small;
+        max-width: 675px;
+        margin: 0 auto;
+        background-color: rgba(0, 255, 255, 0.158);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #jobstable {
+        border-collapse: collapse;
+        margin-top: 20px;
+        margin: 0 auto;
+        width: 100%;
+        border: 1px solid gray;
+    }
+
+    #jobhr th {
+        text-align: center;
+        padding-left: 8px;
+        padding-right: 20px;
+        padding-top: 0;
+        border: 1px solid gray;
+    }
+
+
+    #jobbody {
+        border: 0;
+    }
+
+    #jobbody :hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    }
+
+
+    #jobbody tr:nth-child(odd) {
+        background-color: whitesmoke;
+    }
+
+    td {
+        padding: 8px;
+        padding-right: 25px;
+
+    }
+
+    tbody tr :nth-child(2) {
+        td {
+            column-span: 2;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .banner {
+        height: 250px;
+    }
+
+    h1 {
+        margin: 25px 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* html {
+        font-size: 25px;
+    }
+
+    .banner {
+        height: 350px;
+    } */
+
+
+    h1 {
+        margin: 30px 0;
+    }
+}
+
+/*
+html {
     font-size: 16px;
 }
 
@@ -89,7 +484,6 @@ h2 {
     margin: 0 auto;
     background-color: rgba(0, 255, 255, 0.158);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    /* padding: px; */
 }
 
 #jobstable {
@@ -110,7 +504,6 @@ h2 {
 
 
 #jobbody {
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
     border: 0;
 }
 
@@ -118,9 +511,7 @@ h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
-/* #jobbody tr:nth-child(even) {
-    background-color: rgb(219, 100, 100);
-} */
+
 #jobbody tr:nth-child(odd) {
     background-color: whitesmoke;
 }
@@ -128,7 +519,6 @@ h2 {
 td {
     padding: 8px;
     padding-right: 25px;
-    /* border: 1px solid gray; */
 
 }
 
@@ -145,7 +535,6 @@ nav {
 #footer {
     background-color: rgb(0, 0, 0);
     margin-top: 50px;
-    /* border-top: 1px solid ; */
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
     width: 100%;
     text-align: center;
@@ -192,8 +581,6 @@ a:hover {
 #position,
 #resume {
     margin: 8px 8px 8px 0;
-    /* align-items: center; */
-    /* width: 250px; */
 }
 
 #submit {
@@ -211,13 +598,10 @@ a:hover {
 
 #position {
     margin: 8px 8px 8px 0;
-    /* align-items: center; */
-    /* width: 200px; */
 }
 
 #resume {
     margin: 8px 8px 8px 0;
-    /* align-items: center; */
     width: 300px;
 }
 
@@ -226,3 +610,5 @@ a:hover {
     width: 15px;
     margin: 8px 8px 8px 0;
 }
+
+*/
