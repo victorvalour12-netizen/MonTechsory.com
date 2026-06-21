@@ -57,6 +57,10 @@ a:focus {
     color: #1d4ed8;
 }
 
+a:hover {
+    color: #0004ff;
+}
+
 nav {
     padding: 8px;
     margin: 0;
@@ -116,9 +120,11 @@ h2 {
 
 .job {
     margin: 10px auto;
+    padding: 8px;
     background-color: #3882f6;
     color: #f0f0f0;
     width: 250px;
+    border: 1px solid #dddddd;
     border-radius: 5px;
     text-align: center;
 }
@@ -130,7 +136,7 @@ h2 {
 }
 
 #form {
-    margin: 0 auto;
+    margin: 5px;
     margin-top: 20px;
     max-width: 450px;
 }
@@ -141,9 +147,10 @@ h2 {
 #phone,
 #birthday,
 #position,
-#resume {
+#resume,
+#submit {
     /* margin: 8px 8px 8px 0; */
-    width: 100%;
+    width: 90%;
 }
 
 #submit {
@@ -172,6 +179,29 @@ h2 {
     height: 15px;
     width: 15px;
     /* margin: 8px 8px 8px 0; */
+}
+
+#footer {
+    background-color: rgb(0, 0, 0);
+    margin-top: 50px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
+    width: 100%;
+    text-align: center;
+
+}
+
+#footer-links {
+    list-style: none;
+    padding-top: 15px;
+        padding-left: 0;
+
+
+}
+
+#footer-links li {
+    /* display: inline; */
+    padding: 5px;
+
 }
 
 @media screen and (min-width: 576px) {
@@ -210,48 +240,55 @@ h2 {
     }
 
     #form {
-       margin: 0 auto;
+        margin: 0 auto;
         margin-top: 20px;
-    max-width: 450px;
-}
+        max-width: 450px;
+    }
 
-#name,
-#email,
-#message,
-#phone,
-#birthday,
-#position,
-#resume {
-    /* margin: 8px 8px 8px 0; */
-    margin: 0 auto;
-    max-width: 500px;
-}
+    #name,
+    #email,
+    #message,
+    #phone,
+    #birthday,
+    #position,
+    #resume,
+    #submit {
+        /* margin: 8px 8px 8px 0; */
+        margin: 0 auto;
+        width: auto;
+    }
 
-#submit {
-    background-color: #0004ff;
-    color: white;
-    /* margin: 8px 8px 8px 0; */
-    padding: 2px;
-}
+    #submit {
+        background-color: #0004ff;
+        color: white;
+        /* margin: 8px 8px 8px 0; */
+        padding: 2px;
+    }
 
-#submit:hover {
-    cursor: pointer;
-    scale: 110%;
-    font-weight: 700;
-}
+    #submit:hover {
+        cursor: pointer;
+        scale: 110%;
+        font-weight: 700;
+    }
 
-/* #position {
+    /* #position {
     margin: 8px 8px 8px 0;
 } */
 
-#message {
-    width: 500px;
-}
-#resume {
-    /* margin: 8px 8px 8px 0; */
-    width: 300px;
-}
+    #message {
+        width: 500px;
+    }
 
+    #resume {
+        /* margin: 8px 8px 8px 0; */
+        width: 300px;
+    }
+
+    #footer-links li {
+    display: inline;
+    padding: 10px;
+
+}
 
 
 }
@@ -309,7 +346,7 @@ h2 {
     }
 
     #job {
-        display: block;
+        display: table;
     }
 
     #jobs-list {
@@ -364,6 +401,10 @@ h2 {
         td {
             column-span: 2;
         }
+    }
+
+    #form {
+        max-width: 800px;
     }
 }
 
