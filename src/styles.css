@@ -209,11 +209,11 @@ h2 {
         font-size: 1.5rem;
     }
 
-    /* #form {
-    margin: 0 auto;
-    margin-top: 20px;
-    max-width: 650px;
-} */
+    #form {
+       margin: 0 auto;
+        margin-top: 20px;
+    max-width: 450px;
+}
 
 #name,
 #email,
